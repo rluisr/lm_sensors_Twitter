@@ -4,10 +4,10 @@ class Twitter{
 	
 	function toTweet($postMsg){
 	require_once dirname(__FILE__) . '/twitteroauth.php';
-    $ck = "t3zosSnCa5NnzFot5hQiNdrKy";
-    $cs = "PUs69F28Fcln2EMckoRa2VBHkutRTvL64FRAYLXEreQxXbmdru";
-    $at = "231127644-AW96LwRMxnsUvqOukv6f1wLtljryRB2oughbuu8i";
-    $ats = "pRE2D5BKuhacyXAbpEL57lVihhrnyb0dtzbjdy7K6MvYD";
+    $ck = "";
+    $cs = "";
+    $at = "";
+    $ats = "";
     
     //リクエストを投げる先（固定値）
     $url = "https://api.twitter.com/1.1/statuses/update.json";
